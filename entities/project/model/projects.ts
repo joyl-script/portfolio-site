@@ -35,25 +35,25 @@ export const projectVisuals = [
   {
     number: "01",
     label: "Job Portal",
-    image: "/projects/job-portal.webp",
+    image: "/portfolio-site/projects/job-portal.webp",
     tags: ["Next.js", "Redux Toolkit", "TanStack Query"],
   },
   {
     number: "02",
     label: "Ecobazar",
-    image: "/projects/ecobazar.webp",
+    image: "/portfolio-site/projects/ecobazar.webp",
     tags: ["Next.js", "Tailwind CSS", "SSR"],
   },
   {
     number: "03",
     label: "Test Company",
-    image: "/projects/test-company.webp",
+    image: "/portfolio-site/projects/test-company.webp",
     tags: ["Next.js", "Tailwind CSS", "Figma"],
   },
   {
     number: "04",
     label: "Kinopoisk clone",
-    image: "/projects/kinopoisk.webp",
+    image: "/portfolio-site/projects/kinopoisk.webp",
     tags: ["JavaScript", "CSS Grid", "Swiper.js"],
   },
 ];
