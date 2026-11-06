@@ -36,13 +36,11 @@ export function ContactForm() {
     setStatus("sending");
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, contact, project }),
-      });
-
-      if (!response.ok) throw new Error("request failed");
+      const subject = encodeURIComponent(`Заявка с сайта: ${name}`);
+      const body = encodeURIComponent(
+        `Имя: ${name}\nКонтакт: ${contact}\nПроект: ${project}`,
+      );
+      window.location.href = `mailto:majpotejto@gmail.com?subject=${subject}&body=${body}`;
       form.reset();
       setStatus("sent");
     } catch {

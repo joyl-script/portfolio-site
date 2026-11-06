@@ -1,5 +1,5 @@
 export const site = {
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://anastasia-vedernikova.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://joyl-script.github.io/portfolio-site",
   name: "Anastasia Vedernikova",
   role: "Frontend Developer",
   title: "Anastasia Vedernikova — Frontend Developer",

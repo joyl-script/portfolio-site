@@ -23,11 +23,11 @@ export const tools = [
 
 export const projectLinks = [
   {
-    demo: "https://job-portal-five-lemon.vercel.app/",
+    demo: "https://joyl-script.github.io/job-portal/",
     repo: "https://github.com/joyl-script/job-portal",
   },
-  { demo: "https://next-syte-z2q2-six.vercel.app/", repo: "https://github.com/joyl-script/next-syte" },
-  { demo: "https://test-company-umber.vercel.app", repo: "https://github.com/joyl-script/test-company" },
+  { demo: "https://joyl-script.github.io/next-syte/", repo: "https://github.com/joyl-script/next-syte" },
+  { demo: "https://joyl-script.github.io/test-company/", repo: "https://github.com/joyl-script/test-company" },
   { demo: "https://joyl-script.github.io/my-eight-syte/", repo: "https://github.com/joyl-script/my-eight-syte" },
 ];
 
